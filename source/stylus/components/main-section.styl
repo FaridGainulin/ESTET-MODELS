@@ -1,0 +1,113 @@
+.main-section
+  background-image: url('../images/main-section-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  background-color #000
+
+  &__container
+    position relative
+    padding 15px 0 10px 0
+    +above($breakpoints.sm)
+      padding 20px 0 50px 0
+    +above($breakpoints.md)
+      padding 25px 0 70px 0
+    +above($breakpoints.xxl)
+      padding 29px 0 92px 0
+
+  &__title,
+  &__text,
+  &__sub-title
+    text-align: center
+    +above($breakpoints.sm)
+      text-align: start
+
+  &__title
+    padding 20px 0 8px 0
+    +above($breakpoints.sm)
+      padding 50px 0 12px 0
+    +above($breakpoints.md)
+      padding 70px 0 12px 0
+    +above($breakpoints.xxl)
+      padding 97px 0 15px 0
+
+  &__text
+    display: flex
+    align-items: center
+    gap: 5px
+    padding 15px 0 15px 0
+    +above($breakpoints.sm)
+      gap: 10px
+      padding 30px 0 30px 0
+    +above($breakpoints.md)
+      gap: 25px
+      padding 35px 0 35px 0
+    +above($breakpoints.xxl)
+      padding 47px 0 55px 0
+
+  &__icon
+    width 40px
+    height: auto
+    +above($breakpoints.sm)
+      width 80px
+    +above($breakpoints.md)
+      width 100px
+    +above($breakpoints.xxl)
+      width 130px
+
+  &__form
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 5px
+    background-color #fff
+    border-radius: 20px
+    padding 15px 10px
+    +above($breakpoints.sm)
+      width 320px
+      padding 20px 20px 20px 20px
+    +above($breakpoints.md)
+      gap: 10px
+      width 370px
+      padding 25px 20px 25px 20px
+    +above($breakpoints.xxl)
+      padding 28px 25px 26px 25px
+      width 400px
+      gap: 16px
+    button
+      +above($breakpoints.md)
+        margin-top 10px
+
+  &__img
+    width 300px
+    height: auto
+    margin 15px 0 0 -2px
+    +above($breakpoints.sm)
+      margin 0
+      position: absolute
+      width: 440px;
+      bottom: 40px;
+      right: -52px;
+    +above($breakpoints.md)
+      width 645px
+      right: -130px
+      bottom: 9px
+    +above($breakpoints.xxl)
+      width 845px
+      right: -200px
+
+.section-line
+  background-image: url('../images/section-line.svg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  background-color #fff
+  height: 12px
+  +above($breakpoints.sm)
+    height: 14px
+  +above($breakpoints.md)
+    height: 20px
+  +above($breakpoints.xxl)
+    height: 44px
+  +above($breakpoints.xxxxxxl)
+    height: 70px

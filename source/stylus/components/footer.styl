@@ -1,0 +1,52 @@
+.footer
+  // background-image: url('../images/footer-bg.jpg')
+  // background-repeat: no-repeat
+  // background-position: center
+  // background-size: cover
+  background-color #fff
+
+  &__container
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+    padding 12px 0
+    color: #000
+    +above($breakpoints.sm)
+      justify-content space-between
+      flex-direction: row
+
+  &__brand
+    display: none
+    +above($breakpoints.sm)
+      display: flex
+      flex-direction: column
+      gap: 5px
+
+  &__logo
+    width 90px
+    height: auto
+    +above($breakpoints.sm)
+      width 120px
+    +above($breakpoints.md)
+      width 130px
+    +above($breakpoints.xxl)
+      width 140px
+
+  &__privacy,
+  &__privacy-mobile
+    cursor pointer
+    text-decoration: underline
+
+  &__privacy-mobile
+    +above($breakpoints.sm)
+      display: none
+
+  &__connection
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content center
+    gap: 5px
+    +above($breakpoints.sm)
+      gap: 8px

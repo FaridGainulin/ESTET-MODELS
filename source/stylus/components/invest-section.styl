@@ -1,0 +1,108 @@
+.invest-section
+  background-image: url('../images/invest-section-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  background-color #000
+
+  &__container
+    position relative
+    text-align: center
+    padding 20px 0 1px 0
+    +above($breakpoints.sm)
+      padding 50px 0 50px 0
+    +above($breakpoints.md)
+      padding 80px 0 80px 0
+    +above($breakpoints.xxl)
+      padding 119px 0 120px 0
+
+  &__icon
+    position: absolute
+    width: 200px;
+    height: auto;
+    right: -61px;
+    top: 99px;
+    +above($breakpoints.sm)
+      width: 300px;
+      right: -70px;
+      top: 147px;
+    +above($breakpoints.md)
+      width: 452px;
+      right: -98px;
+      top: 195px;
+    +above($breakpoints.xxl)
+      width: 652px;
+      right: -164px;
+      top: 250px;
+
+  &__title
+    +above($breakpoints.xxl)
+      line-height 119% !important
+
+  &__sub-title
+    padding 15px 0 20px 0
+    +above($breakpoints.sm)
+      padding 20px 0 30px 0
+    +above($breakpoints.md)
+      padding 30px 0 40px 0
+    +above($breakpoints.xxl)
+      padding 37px 0 46px 0
+
+  &__cards
+    +above($breakpoints.sm)
+      display: flex
+      justify-content center
+      gap: 10px
+    +above($breakpoints.md)
+      gap: 20px
+
+  &__card
+    width 280px !important
+    background-color #fff
+    border-radius: 20px
+    padding: 15px 0 0 0
+    +above($breakpoints.sm)
+      width 235px !important
+      padding 20px 0 0 0
+    +above($breakpoints.md)
+      width 308px !important
+      padding 20px 0 0 0
+    +above($breakpoints.xxl)
+      width 380px !important
+      height: 418px
+      padding 20px 0 45px 0
+
+  &__card-title
+    background-image: url('../images/invest-section-card-bg.jpg')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    background-color #000
+    display: flex
+    align-items: center
+    justify-content center
+    height: 40px
+    +above($breakpoints.sm)
+      height: 60px
+    +above($breakpoints.md)
+      height: 75px
+    +above($breakpoints.xxl)
+      height: 94px
+
+  &__form
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 5px
+    padding 15px 10px
+    +above($breakpoints.sm)
+      padding: 20px 10px 25px 10px
+    +above($breakpoints.md)
+      gap: 10px
+      padding: 30px 15px 35px 15px
+    +above($breakpoints.xxl)
+      gap: 15px
+      padding: 37px 25px 45px 25px
+    button
+      +above($breakpoints.md)
+        margin-top 10px

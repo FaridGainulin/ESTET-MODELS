@@ -1,0 +1,26 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-black.font-s-37.text-up
+        | Откройте прибыльную 
+        br.no-br
+        | модельную школу
+      .main-section__sub-title.font-w-regular.font-s-33
+        | для детей и подростков 
+        br.no-br
+        | всего за 11 дней
+      .main-section__text
+        img.main-section__icon(src="images/main-section-icon.png" loading="lazy" width="261" height="214" alt="image")
+        .font-w-regular.font-s-18
+          | Получите пошаговый план 
+          br.no-br
+          | запуска бизнеса по франшизе 
+          br.no-br
+          | «ESTET MODELS»
+      form.main-section__form(data-feedback-form)
+        input.input(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+        button.btn(type="submit") Получить план запуска
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1690" height="1810" alt="image")
+.section-line

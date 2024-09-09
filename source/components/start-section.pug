@@ -1,0 +1,38 @@
+section.start-section
+  .wrapper
+    .start-section__container
+      img.start-section__img-left(src="images/start-section-img-left.png" loading="lazy" width="820" height="718" alt="image")
+      img.start-section__img-right(src="images/start-section-img-right.png" loading="lazy" width="1496" height="1227" alt="image")
+      h2.start-section__title.font-w-black.font-s-37.text-up.text-center
+        | Запишитесь на предварительный 
+        br.no-br
+        | тест-драйв франшизы
+      .start-section__sub-title.font-s-24.text-center Оставьте заявку, чтобы узнать:
+      .swiper-start
+        .start-section__cards.swiper-wrapper
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.png" loading="lazy" width="62" height="54" alt="icon")
+            .font-s-20 Как работать с моделями
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.png" loading="lazy" width="62" height="54" alt="icon")
+            .font-s-20 Какие обучающие программы использовать
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.png" loading="lazy" width="62" height="54" alt="icon")
+            .font-s-20 Как заключать крупные партнерства
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.png" loading="lazy" width="62" height="54" alt="icon")
+            .font-s-20 Как привлекать большое количество клиентов
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.png" loading="lazy" width="62" height="54" alt="icon")
+            .font-s-20 Как запускать эффективную рекламу
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.png" loading="lazy" width="62" height="54" alt="icon")
+            .font-s-20 Как выйти на международный уровень
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.png" loading="lazy" width="62" height="54" alt="icon")
+            .font-s-20 Как масштабироваться и расти с каждым годом
+        .start-pagination.swiper-progress-start
+      form.start-section__form(data-feedback-form)
+        input.input(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+        button.btn(type="submit") узнать

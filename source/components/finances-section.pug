@@ -1,0 +1,51 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      img.finances-section__left-image(src="images/finances-section-left-image.png" loading="lazy" width="1447" height="1291" alt="image")
+      img.finances-section__right-image(src="images/finances-section-right-image.png" loading="lazy" width="1486" height="1146" alt="image")
+      h2.finances-section__title.font-w-black.font-s-37.text-up.text-center
+        | Основные цифры 
+        br.no-br
+        | и бизнес-модель франшизы
+      .swiper-finances
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-black.font-s-30.text-up 11 дней
+            .finances-section__card-text.font-s-20 Займет запуск <br> школы
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-black.font-s-30.text-up 6 месяцев
+            .finances-section__card-text.font-s-20 Средний срок <br> окупаемости
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-black.font-s-30.text-up 520 000 рублей
+            .finances-section__card-text.font-s-20 Средний размер <br> вложений
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-black.font-s-30.text-up 180 000 рублей
+            .finances-section__card-text.font-s-20 Средняя ежемесячная <br> выручка
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-black.font-s-30.text-up 140 000 рублей
+            .finances-section__card-text.font-s-20 Средняя ежемесячная <br> прибыль
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-black.font-s-30.text-up 77,5%
+            .finances-section__card-text.font-s-20 Рентабельность <br> по чистой прибыли
+        .finances-pagination.swiper-progress-finances
+      .finances-section__bottom
+        img.finances-section__bottom-icon(src="images/finances-section-bottom-icon.png" loading="lazy" width="829" height="696" alt="icon")
+        .finances-section__bottom-text
+          .font-w-black.font-s-26.text-up
+            | Хотите получить 
+            br.no-br
+            | детальные цифры 
+            br.no-br
+            | для вашего города 
+            br.no-br
+            | и под ваш бюджет?
+          .font-s-20
+            | Скачайте финансовую модель 
+            br.no-br
+            | «Estet Models»
+        form.finances-section__form(data-feedback-form)
+          input.input.input--secondary(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+          input.input.input--secondary(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+          button.btn.btn--secondary(type="submit") Получить план запуска
+      img.finances-section__img-mobile(src="images/finances-section-img-mobile.png" loading="lazy" width="1133" height="672" alt="image")
+.section-line
